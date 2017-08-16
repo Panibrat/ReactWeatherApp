@@ -9,9 +9,9 @@ var React = require('react');
 });*/
 var Examples = () => {
     return (
-    <div>
-        <h3>Examples</h3>
-        <p> Example paragraph </p>
-    </div>);
-
+        <div>
+            <h3>Examples</h3>
+            <p> Example paragraph </p>
+        </div>);
+}
 module.exports = Examples;
