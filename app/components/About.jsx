@@ -8,7 +8,7 @@ var React = require('react');
   }
 });*/
 
-var About = () => <h3>About Component Errow function</h3>;
+var About = () => <h3>About</h3>;
 
 
 module.exports = About;

@@ -7,5 +7,11 @@ var React = require('react');
     )
   }
 });*/
-var Examples = () => <h3>Examples Component +++ </h3>;
+var Examples = () => {
+    return (
+    <div>
+        <h3>Examples</h3>
+        <p> Example paragraph </p>
+    </div>);
+
 module.exports = Examples;
