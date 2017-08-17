@@ -9,7 +9,7 @@ module.exports = {
         var requestUrl = `http://api.openweathermap.org/data/2.5/find?q=${encodedLocation}&units=metric&appid=ae1e26d3a511f5058a8fc9ff40ffe2ad`
         console.log(requestUrl);
         return axios.get(requestUrl).then(function (res) {
-            debugger;
+            //debugger;
             //if (!res.data.cod && res.data.message) {
             if (!res.status == 200) {
                 throw new Error('No info');
