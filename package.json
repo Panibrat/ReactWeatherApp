@@ -25,6 +25,8 @@
     "css-loader": "^0.28.5",
     "foundation-sites": "^6.4.2",
     "jquery": "^3.2.1",
+    "node-sass": "^3.13.1",
+    "sass-loader": "^3.2.3",
     "script-loader": "^0.7.0",
     "style-loader": "^0.18.2",
     "webpack": "^1.12.13"
